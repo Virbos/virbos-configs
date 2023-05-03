@@ -11,3 +11,5 @@ bspc config focused_border_color "#057800"
 # enable floating windows on Desktop 3
 
 ~/.config/bspwm/floating-desktop.sh
+
+xsetroot -cursor_name left_ptr
