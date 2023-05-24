@@ -1,7 +1,8 @@
 CONFIGS = alacritty,bspwm,conky,i3,kitty,polybar,sxhkd
+CONFDIR = ~
 
 install:
-	mkdir -p ~/.config
-	cp -fr ${CONFIGS} ~/.config
+	mkdir -p ${CONFDIR}/.config
+	cp -fr ${CONFIGS} ${CONFDIR}/.config
 
 .PHONY: install
