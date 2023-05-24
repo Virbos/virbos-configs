@@ -3,6 +3,6 @@ CONFDIR = ~
 
 install:
 	mkdir -p ${CONFDIR}/.config
-	cp -fr ${CONFIGS} ${CONFDIR}/.config
+	cp -fr {${CONFIGS}} ${CONFDIR}/.config
 
 .PHONY: install
