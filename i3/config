@@ -40,7 +40,7 @@ client.focused_inactive #057800 #057800 #bbbbbb
 client.urgent           #d11d1d #121212 #121212
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec wezterm --config-file ~/.config/wezterm/config.lua
 
 # kill focused window
 bindsym $mod+q kill
